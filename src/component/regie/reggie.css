@@ -1,0 +1,123 @@
+.fullVideo{
+    width: 100vw;
+
+}
+/*=================AVVATARCHOICE======================*/
+
+/*=================GAMEMANAGING======================*/
+
+
+.reggie{
+    background-color: #1B1541;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reggiePage {
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    align-items: flex-start;
+    gap: 4vw;
+}
+
+.titleSection {
+
+}
+
+.reggieSection {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.scoreContainer {
+    background: rgba(255, 255, 255, 0.10);
+    padding: 7vh;
+    display: flex;
+    width: 42vw;
+    flex-direction: column;
+    gap: 3.5vh;
+    border-radius: 35px;
+}
+.responsEexplication{
+    text-align: start;
+
+}
+.scoreContainer p {
+    text-align: start;
+}
+.nextQuestion{
+    border-radius: 30px;
+    background: #61E1CC;
+    width: 13vw;
+    height: 9vh;
+}
+.reggieTrueResponse{
+    color: #6AEBC7;
+}
+.reggiePossibleResponse{
+    color: #EB6A6A;
+}
+/*=================BOUTON======================*/
+.alert {
+    border-radius: 30px;
+
+    width: 12vw;
+    align-items: flex-end;
+    background: rgba(255, 255, 255, 0.56);
+
+}
+
+/*=================BOUTON=POINT====================*/
+.bouttonFond {
+    font-family: "futura-pt", sans-serif;
+    border-radius: 30px;
+    background: #1B1541;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 4vh;
+    padding: 1vh;
+    width: 100%;
+}
+
+.bouttonFond span {
+    width: 55%;
+
+}
+
+.boutonName {
+    background: #3D249B;
+    border-radius: 30px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+
+    color: white;
+}
+
+.boutonClicked {
+    background-color: #61E1CC
+;
+    color: #1B1541;
+}
+.boutonReggieFocus{
+    border: 4px #a418c5 solid;
+
+    border-radius: 30px;
+}

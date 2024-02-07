@@ -1,0 +1,61 @@
+.first{
+      height: 25vh;
+    width: 13vw;
+}
+.second{
+    height: 16vh;
+    width: 13vw;
+}
+.third{
+       height: 11vh;
+    width: 13vw;
+}
+.third ,.second ,.first {
+
+
+    flex-direction: column;
+    display: flex;
+    background: rgba(255, 255, 255, 0.10);
+    justify-content: end;
+    padding: 0.5vh;
+}
+.third span,.second span,.first span , .avatarName{
+
+
+    color: white;
+
+}
+
+.scoreBoard img{
+    margin-bottom: 4vh;
+}
+.avatarName{
+    font-family: "futura-pt", sans-serif;
+}
+.scoreBoard{
+    font-family: "good-times", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3em;
+    color: white;
+    height: 84vh;
+    justify-content: space-around;
+}
+.scoreBarContainer{
+    width: 50vw;
+}
+.scoreBar{
+    gap: 2vh;
+}
+.scoreBar img {
+    width: 10vw;
+}
+.scoreBoard > img{
+    width: 31vw;
+}
+@media only screen and (min-width: 3000px) {
+.scoreBoard{
+    font-size: 8em;
+}
+
+}

@@ -1,0 +1,179 @@
+.soundContainer{
+    background-color: rgba(255, 255, 255, 0.07);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 37px;
+    width: 29vw;
+    padding: 29px 44px;
+    margin-top: 40px;
+    gap: 14px;
+}
+.soundBarBackground{
+    height: 69px;
+
+}
+.soundbar {
+    width: 7px;
+    height: 80px;
+
+    border-radius: 30px;
+    margin-right: 4px;
+    background-size: cover;
+    background: linear-gradient(to right, #3EACAC 40%, #6753C9 45%, #6E2EB3 50%, #281A65 60%) fixed center;
+}
+.icContainer{
+    gap: 30px;
+    align-items: center;
+}
+
+.icSound {
+    font-size: 3em;
+    color: white;
+}
+.icSkip{
+    font-size: 2em !important;
+}
+.moove1 {
+    animation: 5s soundbarMoove ease-in 0s infinite;
+}
+
+.moove2 {
+    animation: 5s soundbarMoove ease-in 0.8s infinite;
+}
+
+.moove3 {
+    animation: 5s soundbarMoove ease-in 2.3s infinite;
+}
+
+.moove4 {
+    animation: 5s soundbarMoove ease-in 1.5s infinite;
+}
+
+.moove5 {
+    animation: 5s soundbarMoove ease-in 4.2s infinite;
+}
+
+.moove6 {
+    animation: 5s soundbarMoove ease-in 3.6s infinite;
+}
+
+.moove7 {
+    animation: 5s soundbarMoove ease-in 2.1s infinite;
+}
+
+.moove8 {
+    animation: 5s soundbarMoove ease-in 5.7s infinite;
+}
+
+.moove9 {
+    animation: 5s soundbarMoove ease-in 4.9s infinite;
+}
+
+.moove10 {
+    animation: 5s soundbarMoove ease-in 1.2s infinite;
+}
+
+.moove11 {
+    animation: 5s soundbarMoove ease-in 3.8s infinite;
+}
+
+.moove12 {
+    animation: 5s soundbarMoove ease-in 2.5s infinite;
+}
+
+.moove13 {
+    animation: 5s soundbarMoove ease-in 4.1s infinite;
+}
+
+.moove14 {
+    animation: 5s soundbarMoove ease-in 0.7s infinite;
+}
+
+.moove15 {
+    animation: 5s soundbarMoove ease-in 5.3s infinite;
+}
+
+.moove16 {
+    animation: 5s soundbarMoove ease-in 3.1s infinite;
+}
+
+.moove17 {
+    animation: 5s soundbarMoove ease-in 1.6s infinite;
+}
+
+.moove18 {
+    animation: 5s soundbarMoove ease-in 4.8s infinite;
+}
+
+.moove19 {
+    animation: 5s soundbarMoove ease-in 2.4s infinite;
+}
+
+.moove20 {
+    animation: 5s soundbarMoove ease-in 0.3s infinite;
+}
+
+.moove21 {
+    animation: 5s soundbarMoove ease-in 5.5s infinite;
+}
+
+.moove22 {
+    animation: 5s soundbarMoove ease-in 3.3s infinite;
+}
+
+.moove23 {
+    animation: 5s soundbarMoove ease-in 1.8s infinite;
+}
+
+.moove24 {
+    animation: 5s soundbarMoove ease-in 4.6s infinite;
+}
+
+.moove25 {
+    animation: 5s soundbarMoove ease-in 2.2s infinite;
+}
+
+.moove26 {
+    animation: 5s soundbarMoove ease-in 5.9s infinite;
+}
+
+.moove27 {
+    animation: 5s soundbarMoove ease-in 3.7s infinite;
+}
+
+.moove28 {
+    animation: 5s soundbarMoove ease-in 2s infinite;
+}
+
+.moove29 {
+    animation: 5s soundbarMoove ease-in 4.4s infinite;
+}
+
+
+@keyframes soundbarMoove  {
+    0% {
+        height: 50%;
+    }
+
+    25% {
+        height: 10%;
+
+    }
+    40% {
+
+        height: 50%;
+    }
+    55% {
+        height: 80%;
+
+    }
+    65% {
+        height: 100%;
+    }
+    100% {
+        height: 50%;
+
+    }
+}

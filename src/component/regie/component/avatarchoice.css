@@ -1,0 +1,32 @@
+.regieChoiceContainer {
+    background: rgba(255, 255, 255, 0.10);
+    padding: 7vh;
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    justify-content: space-around;
+
+    border-radius: 35px;
+}
+.avatarContainer form{
+    display: flex;
+    flex-direction: row;
+
+}
+fieldset{
+    height: 19vh;
+    padding: 2vh 11vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    border-radius: 30px;
+    background: #1B1541;
+}
+select{
+    background-color: #3D249B;
+    border: 0;
+    padding: 2vh;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,89 @@
+.alerteBande{
+    border: 3px solid #CD1515;
+    background: rgba(255, 255, 255, 0.10);
+    width: 107vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    filter: brightness(2)drop-shadow(2px 2px 1px #CD1515);
+
+}
+.alerteBande1,.alerteBande2{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    align-items: center;
+}
+.alerteBande1{
+    transform:  translateX(-190vw);
+
+animation : 15s alertBande1 infinite;
+}
+.alerteBande2{
+    transform:  translateX(6vw);
+
+    animation : 15s alertBande2 infinite;
+}
+.alertPage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.alertLabel{
+font-family: "good-times", sans-serif;
+    color: #CD1515;
+    font-size: 3em;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}.alertImage{
+     width: 3vw;
+
+ }
+ .accessdeniedImage{
+     animation: 2s shake linear infinite;
+ }
+
+
+ @keyframes shake{
+     0%{
+         transform: translateX(0vw)  ;
+     }
+     35%{
+         transform: translateX(0vw)  ;
+     }
+     40%{
+         transform: translateX(1vw)  ;
+     }
+     50%{
+         transform: translateX(-1vw)  ;
+     }
+     60%{
+         transform: translateX(0vw)  ;
+     }
+ }
+
+@keyframes alertBande1 {
+
+    0% {
+        transform: translateX(-192vw);
+    }
+    100% {
+        transform: translateX(6vw);
+    }
+}
+@keyframes alertBande2 {
+
+    0% {
+        transform: translateX(6vw);
+    }
+    100% {
+        transform: translateX(-192vw);
+    }
+}

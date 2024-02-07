@@ -1,0 +1,114 @@
+.cadreReponseBlanc {
+    color: white;
+    font-size: 2em;
+    justify-content: start !important;
+    background-image: url(/src/assets/image/gameDisplay/response/ResponseCadreBLanc.png);
+    width: 29vw;
+    height: 14vh;
+    margin: 20px;
+    padding: 0px 60px !important;
+    /* filter: brightness(1.5) drop-shadow(2px 2px 6px white);*/
+
+}
+
+.cadreTrueResponse {
+    background-image: url(/src/assets/image/gameDisplay/response/responseGood.png) !important;
+
+}
+
+.appear {
+    animation: 2s appear;
+}
+
+.reponseLetter {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 360px;
+    color: black;
+    margin: 0px 45px 0px 0px;
+}
+
+.reponseTrueFalse {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.neutreResponse {
+    background: #FFF;
+}
+
+.trueResponse {
+    background: linear-gradient(130deg, #36DDCE 16.55%, #77E3CA 49.57%, #48FFBE 80.92%) !important;
+}
+
+.trueResponseDiv {
+    color: #6AEBC7;
+    min-width: 28vw;
+    font-size: 1.8em;
+    display: flex;
+    max-width: 80vw;
+    max-height: 50vh;
+    min-height: 200.834px;
+
+    border-radius: 38px;
+    background: rgba(54, 221, 206, 0.15);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: 2s appear;
+    padding: 6vh 7vh;
+}
+
+.trueResponseDiv div {
+    word-wrap: normal;
+    word-break: break-word;
+    overflow: hidden;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+    .trueResponseDiv {
+        font-size: 1em;
+    }
+
+    .cadreReponseBlanc {
+        font-size: 4em;
+    }
+
+    .reponseLetter {
+        padding: 3.3vh;
+    }
+
+    .fontSizeSm {
+        font-size: 4em;
+    }
+
+    .fontSizeLg {
+        font-size: 8em;
+    }
+
+    .fontSizeSmExplication {
+        font-size: 3em;
+    }
+
+    .fontSizeLgExplication {
+        font-size: 7em;
+    }
+}

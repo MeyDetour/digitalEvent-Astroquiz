@@ -1,0 +1,129 @@
+.introOutro {
+    width: 76vw;
+    animation: 1.5s intro ease , 1.5s blink 3s infinite  ;
+}
+
+.questionRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;justify-content: center;
+    gap: 170px;
+}.blinkOutro{
+     animation: 1.5s intro ease , 1.5s   blinkOutro 3s infinite !important;  ;
+
+ }
+.gameDisplay{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 83vw;
+    gap: 60px;
+    justify-content: center;
+
+}
+.boutonsModo{
+    position: absolute;
+    top: 4%;
+    left: 4%;
+}
+@keyframes intro {
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 0;
+        transform: translateY(-250px);
+    }
+
+    38% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    55% {
+        animation-timing-function: ease-in;
+        transform: translateY(-65px);
+    }
+
+    72% {
+        animation-timing-function: ease-out;
+        transform: translateY(0);
+    }
+
+    81% {
+        animation-timing-function: ease-in;
+        transform: translateY(-28px);
+    }
+
+    90% {
+        animation-timing-function: ease-out;
+        transform: translateY(0);
+    }
+
+    95% {
+        animation-timing-function: ease-in;
+        transform: translateY(-8px);
+    }
+
+    100% {
+        animation-timing-function: ease-out;
+        transform: translateY(0);
+    }
+}
+
+@keyframes blink{
+    0%{
+        filter: none;
+    }
+    40%{
+        filter :   drop-shadow(4px 6px 12px #CD1515);
+    }
+    45%{
+        filter: brightness(1);
+    }
+    50%{
+   filter :  brightness(6)drop-shadow(4px 6px 12px #CD1515);
+    }
+    55%{
+        filter :  brightness(6)drop-shadow(4px 6px 12px #CD1515);
+    }
+    60%{
+        filter: brightness(1);
+    }
+    61%{
+        filter :   drop-shadow(4px 6px 12px #CD1515);
+    }
+    100%{
+        filter: none;
+    }
+}
+
+@keyframes blinkOutro{
+    0%{
+        filter: none;
+    }
+    40%{
+        filter :   drop-shadow(4px 6px 12px #48FFBE);
+    }
+    45%{
+        filter: brightness(1);
+    }
+    50%{
+        filter :  brightness(6)drop-shadow(4px 6px 12px #48FFBE);
+    }
+    55%{
+        filter :  brightness(6)drop-shadow(4px 6px 12px #48FFBE);
+    }
+    60%{
+        filter: brightness(1);
+    }
+    61%{
+        filter :   drop-shadow(4px 6px 12px #48FFBE);
+    }
+    100%{
+        filter: none;
+    }
+}
+
+/*
+/*
+brightness(3)drop-shadow(4px 6px 12px #822BD0)*/
