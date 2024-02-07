@@ -1,7 +1,7 @@
 import PlayerSelection from "../../Interface/PlayerSelection";
 import {useEffect, useState} from "react";
 import {GlobalConstants} from "../../Common/Global constants";
-import {addUser, getParty, getScore} from "../../Service/apiService";
+import {addUser, getParty, getScore, setFormulaireNb, setFormulaireNbAtCount} from "../../Service/apiService";
 import reponses from "../GameDisplay/form/Reponses";
 
 
@@ -9,7 +9,7 @@ export default function SelectPlayer({text, action, action2}) {
 
     const create = () => {
         addUser(joueur1, joueur2, joueur3)
-        GlobalConstants.formulaireNumber = Number(formulaireNb)
+        setFormulaireNbAtCount(GlobalConstants.compteurId,formulaireNb)
         getParty(Number(formulaireNb))
     }
 

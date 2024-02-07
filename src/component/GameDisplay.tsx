@@ -50,6 +50,8 @@ function GameDisplay() {
                 setIsResponseVisible(response.isResponseVisible)
                 showQuestion()
             }
+            setFormulaireNb(response.numberForm)
+
 
 
         })
@@ -71,6 +73,7 @@ function GameDisplay() {
     const [joueurScore3, setJoueurScore3] = useState(0);
     let [showExplication, setShowExplication] = useState(false)
     let [isResponseVisible, setIsResponseVisible] = useState(false)
+    const [formulaireNb, setFormulaireNb] = useState(2);
 
     useEffect(() => {
         const intervalId = setInterval(() => {
@@ -79,8 +82,10 @@ function GameDisplay() {
 
         }, 2000);
 
-        if (manche1 == step) {
-            getParty(GlobalConstants.formulaireNumber).then(response => {
+        if (0 == step) {
+            getCount()
+            console.log(formulaireNb)
+            getParty(formulaireNb).then(response => {
                 if (response.draw && response.draw.question) {
                     setQuestionData(response.draw.question);
                 }

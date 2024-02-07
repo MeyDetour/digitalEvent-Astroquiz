@@ -5,7 +5,7 @@ export class GlobalConstants {
 
 
     static compteurId = 2
-    static formulaireNumber = 1
+    static formulaireNumber = 2
 
 
     //name of type

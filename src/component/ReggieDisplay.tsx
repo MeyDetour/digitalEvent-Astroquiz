@@ -66,6 +66,7 @@ function ReggieDisplay() {
     const getCount = () => {
         showCount(compteurId).then(response => {
                 setStep(response.compteur)
+                setFormulaireNb(response.numberForm)
                 console.log('getCount', step)
             }
         )
@@ -121,12 +122,13 @@ function ReggieDisplay() {
     let [showExplication, setShowExplication] = useState(false)
     let [isResponseVisible, setIsResponseVisible] = useState(false)
     const [questionData, setQuestionData] = useState(null);
+    const [formulaireNb, setFormulaireNb] = useState('1');
 
 
     useEffect(() => {
         getScores()
         if (manche1 == step) {
-            getParty(GlobalConstants.formulaireNumber).then(response => {
+            getParty(formulaireNb).then(response => {
                 if (response.draw && response.draw.question) {
                     setQuestionData(response.draw.question);
 
@@ -207,7 +209,7 @@ function ReggieDisplay() {
             }} onResetClick={() => {
                 reset()
             }} scores={[joueurScore1, joueurScore2, joueurScore3]}
-                          numeroqts={{step - decalage}}/>
+                          numeroqts={step - decalage}/>
         )
 
 

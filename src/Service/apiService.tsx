@@ -120,3 +120,27 @@ export async function getScoreData() {
         });
 
 }
+
+export async function setFormulaireNbAtCount(compteurId,nb) {
+
+    const params = {
+        "method": "GET",
+        "headers": {
+            'Content-Type': 'application/json',
+        },
+
+    };
+
+    return await fetch(`${GlobalConstants.baseUrl}compteur/${compteurId}/form/${nb}`)
+        .then(response =>
+            response.json()
+        )
+        .then(data => {
+            console.log(data)
+            return data
+        })
+        .catch(error => {
+            console.error('Erreur lors de la récupération des données :', error);
+        });
+
+}
