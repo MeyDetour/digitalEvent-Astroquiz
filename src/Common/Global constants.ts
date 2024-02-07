@@ -10,10 +10,12 @@ export class GlobalConstants {
 
     //name of type
     static typeImage = "image"
-    static typeMultipleChoice = 'choix multiple'
-    static typeTrueFalse = 'vrai ou faux'
-    static typeSoundQuizz = 'audio'
-    static typeSimpleQuestion = 'reponse libre'
+    static typeMultipleChoice = 'Choix Multiples'
+
+    static typeCitation = 'Citation'
+    static typeTrueFalse = 'Vrai ou Faux'
+    static typeSoundQuizz = 'Blind Test'
+    static typeSimpleQuestion = 'Réponse libre'
 
     static longueurM1 = 5
     static longueurM2 = 4

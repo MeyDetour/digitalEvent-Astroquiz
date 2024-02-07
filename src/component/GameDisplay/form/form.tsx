@@ -70,7 +70,7 @@ function Form({question,isResponseVisible,showExplication}: PropsQuestion) {
 
 
     }
-    if (type === GlobalConstants.typeSimpleQuestion) {
+    if (type === GlobalConstants.typeSimpleQuestion || type == GlobalConstants.typeCitation) {
 
         template = <>
             <Question question={questionName}/>
