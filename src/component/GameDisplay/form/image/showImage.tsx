@@ -6,7 +6,7 @@ function ShowImage({image,classname}) {
     return (
 
             <div className="imageContainer">
-                  <img className={classname} src={GlobalConstants.urlFile+"/files/"+ {image}} alt=""/>
+                  <img className={classname} src={GlobalConstants.a+"/files/"+ {image}} alt=""/>
 
             </div>
 
