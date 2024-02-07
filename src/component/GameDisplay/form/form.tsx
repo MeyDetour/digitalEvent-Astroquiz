@@ -76,13 +76,12 @@ function Form({question,isResponseVisible,showExplication}: PropsQuestion) {
             <Question question={questionName}/>
             {(isResponseVisible || showExplication) &&
                 <Explication type={type} responses={responsesArray} responseVisibility={isResponseVisible}/>}
-
-
         </>
 
 
     }
 
+    console.log(template)
     return (<>
 
             <div className="gameDisplay">
