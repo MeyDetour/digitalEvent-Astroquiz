@@ -3,4 +3,5 @@ export interface Response{
     isTrue : boolean
     valueResponse : string
     explication? : string
+    numeroqts? :number
 }

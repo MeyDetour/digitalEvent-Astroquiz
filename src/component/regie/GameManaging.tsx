@@ -172,7 +172,7 @@ function GameManaging({
             </div>
 
             <div className="reggieSection gap-5">
-                <span className="titleSection">Question{currentQuestion.id}</span>
+                <span className="titleSection">Question{}</span>
                 <div className="d-flex flex-column align-items-end gap-5">
 
                     <div className="scoreContainer"><span className="titleSection">({qtsPt} pt)</span>

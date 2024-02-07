@@ -206,7 +206,8 @@ function ReggieDisplay() {
                 showEplication()
             }} onResetClick={() => {
                 reset()
-            }} scores={[joueurScore1, joueurScore2, joueurScore3]}/>
+            }} scores={[joueurScore1, joueurScore2, joueurScore3]}
+                          numeroqts={{step - decalage}}/>
         )
 
 
