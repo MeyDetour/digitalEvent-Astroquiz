@@ -22,7 +22,7 @@ function Form({question,isResponseVisible,showExplication}: PropsQuestion) {
 
     console.log(point,category,type,questionName,responsesArray,file)
 
-
+    console.log(GlobalConstants.typeMultipleChoice)
     if (type === GlobalConstants.typeMultipleChoice) {
         template = (<>
                 <Question question={questionName}/>
