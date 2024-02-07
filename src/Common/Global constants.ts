@@ -1,7 +1,7 @@
 export class GlobalConstants {
     static baseUrl: string = "https://quizz.esdlyon.dev/"
-    static urlFile: string = "../src/assets/image"
-    static urlImageAvatar: string = '../src/assets/image/gameDisplay/avatar'
+    static urlFile: string = "/image/"
+    static urlImageAvatar: string = '/image/gameDisplay/avatar'
 
 
     static compteurId = 2
