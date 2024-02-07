@@ -95,7 +95,7 @@ function GameDisplay() {
         )
     }
     if (step === party.videoIntro) {
-        content = (<Video source={'Intro Capitaine .mp4'} classe='fullVideo' />)
+        content = (<Video source={'Intro Capitaine v2.mp4'} classe='fullVideo' />)
     }
 
     if ([manche1, manche2, manche3, bonus].includes(step)) {

@@ -1,5 +1,5 @@
 export class GlobalConstants {
-    static baseUrl: string = "https://digitalevent.miantsebastien.com/"
+    static baseUrl: string = "https://quizz.esdlyon.dev/"
     static urlFile: string = "src/assets/image"
     static urlImageAvatar: string = 'src/assets/image/gameDisplay/avatar'
 

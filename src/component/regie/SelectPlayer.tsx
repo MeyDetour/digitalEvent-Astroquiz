@@ -52,9 +52,9 @@ export default function SelectPlayer({text, action, action2}) {
         content = (<>
             <div className="d-flex flex-row">
 
-                <img src={GlobalConstants.urlFileAvatar + '/' + GlobalConstants.avatars[joueur1 - 1][0]} alt="image"/>
-                <img src={GlobalConstants.urlFileAvatar + '/' + GlobalConstants.avatars[joueur2 - 1][0]} alt="image"/>
-                <img src={GlobalConstants.urlFileAvatar + '/' + GlobalConstants.avatars[joueur3 - 1][0]} alt="image"/>
+                <img src={GlobalConstants.urlImageAvatar + '/' + GlobalConstants.avatars[joueur1 - 1][0]} alt="image"/>
+                <img src={GlobalConstants.urlImageAvatar + '/' + GlobalConstants.avatars[joueur2 - 1][0]} alt="image"/>
+                <img src={GlobalConstants.urlImageAvatar + '/' + GlobalConstants.avatars[joueur3 - 1][0]} alt="image"/>
                 <span className="bg-primary">formulaire {formulaireNb}</span>
 
             </div>

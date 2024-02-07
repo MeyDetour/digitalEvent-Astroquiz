@@ -104,7 +104,7 @@ export async function getScoreData() {
         "headers": {
             'Content-Type': 'application/json',
         },
-        "mode": "cors",  // Utilisez le mode cors
+
     };
 
     return await fetch(`${GlobalConstants.baseUrl}score/`)

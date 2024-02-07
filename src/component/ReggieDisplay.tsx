@@ -147,7 +147,7 @@ function ReggieDisplay() {
 
     }
     if (step === party.videoIntro) {
-        content = (<VideoMuted source={'Intro Capitaine .mp4'} classe='fullVideo' actionEnd={upgradeCount} />)
+        content = (<VideoMuted source={'Intro Capitaine v2.mp4'} classe='fullVideo' actionEnd={upgradeCount} />)
     }
 
 
